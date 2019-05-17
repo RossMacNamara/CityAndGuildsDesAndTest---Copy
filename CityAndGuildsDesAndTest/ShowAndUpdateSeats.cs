@@ -148,7 +148,7 @@ namespace CityAndGuildsDesAndTest
             //Get list element to be updated
             int elementNumber = ((CustomTextBox)sender).ElementNumber;
             
-            if (((CustomTextBox)sender).BackColor == Color.Blue)
+            if (((CustomTextBox)sender).BackColor == Color.Green)
             {
                 ((CustomTextBox)sender).BackColor = Color.White;
                 pos = stringPosition + 1;
@@ -163,7 +163,7 @@ namespace CityAndGuildsDesAndTest
             }
             else
             {
-                ((CustomTextBox)sender).BackColor = Color.Blue;
+                ((CustomTextBox)sender).BackColor = Color.Green;
                 ((CustomTextBox)sender).Text = "B"; //Sets textbox text property
                 int i = ((CustomTextBox)sender).Seat;
 
